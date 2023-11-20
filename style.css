@@ -49,6 +49,7 @@ body{
     background-image: url(jordane.png);
     background-repeat: no-repeat;
     background-position: 31% 60%;
+
 }
 #topmeni{
     height: 5%;
@@ -178,6 +179,7 @@ background-position: 90% 40%;
 .socialicons{
     margin: 30px auto;
     text-align: center;
+
 }
 .socialicons img{
     width:30px;
@@ -246,11 +248,35 @@ background-position: 90% 40%;
 .spodajn{
     font-size: 20px;
     font-weight: 600;
-    
-    
+    margin-left: 50px
 }
 .spodajnp{
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+    margin-left: 50px
+}
+#heart{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+#povezava{
+    text-decoration: none; 
+}
+
+.tabelagor{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    height: 1%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+.menigorgor{
+    position: absolute;
+    margin-left: 80%;
+    margin-top:3px;
 }
