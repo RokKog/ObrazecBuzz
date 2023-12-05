@@ -280,3 +280,6 @@ background-position: 90% 40%;
     margin-left: 80%;
     margin-top:3px;
 }
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}

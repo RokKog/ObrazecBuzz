@@ -157,7 +157,8 @@
             Swal.fire({
                 title: 'Uspeh!',
                 text: 'Prijava uspešna.',
-                icon: 'info'
+                icon: 'info',
+                confirmButtonColor: "#000000"
             }).then(() => {
                 // Po uspešni prijavi počisti vsebino polj za vnos
                 document.getElementById("loginUsername").value = "";
@@ -184,7 +185,8 @@
                     Swal.fire({
                         title: 'Uspeh!',
                         text: 'Registracija uspešna.',
-                        icon: 'info'
+                        icon: 'info',
+                        confirmButtonColor: "#000000"
                     }).then(() => {
                         // Po uspešni prijavi počisti vsebino polj za vnos
                         document.getElementById("registerUsername").value = "";
